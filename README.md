@@ -14,4 +14,4 @@ Additionally, the repo includes a [dev container](https://code.visualstudio.com/
 
 2. Click "Show All Definitions..." if needed and select "Azure Functions & PowerShell 6".
 
-3. In the generated Dockerfile, make sure that [version 3](https://github.com/Azure/azure-functions-core-tools#v3) of the Azure Functions Core tools is being used by updating line 67 to: `&& apt-get install -y azure-cli azure-functions-core-tools-3 \`.
+3. In the generated Dockerfile, make sure that [version 3](https://github.com/Azure/azure-functions-core-tools#v3) of the Azure Functions Core tools is being used by updating line 67 to: `&& apt-get install -y azure-cli azure-functions-core-tools-3 \`. _(This step will soon be removed now that https://github.com/microsoft/vscode-dev-containers/pull/321 has been merged.)_
